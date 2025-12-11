@@ -49,7 +49,7 @@ const student2 = {
         console.log("gpa", this.gpa);
         console.log("isGraduated", this.isGraduated);
     } // Very uncommon as its rare to create a function that's used by one object
-}
+};
 
 student2.displayProfile()
 
