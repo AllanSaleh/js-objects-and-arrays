@@ -59,3 +59,18 @@ console.log("Keys:", Object.keys(student2)) // Python students2.keys() => list o
 console.log("Values:", Object.values(student2)) // Python students2.values() => list of keys
 console.log("Entries:", Object.entries(student2)) // Python students2.items() => list of keys
 
+// For in loop
+// Allows you to loop over the keys in an array
+
+// for (let key in student2){
+//     if (typeof student2[key] != 'function'){
+//         console.log(student2[key])
+//     }
+// }
+
+for (let key in student2){
+    if (typeof student2[key] == 'function'){
+        continue;
+    }
+    console.log(student2[key])
+}
